@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/taohuang/Library/Mobile Documents/com~apple~CloudDocs/Metropolis40/_python_OS_automation/streams_err.py", line 4, in <module>
+    raise ValueError("now we generate an error to STDERR")
+ValueError: now we generate an error to STDERR
