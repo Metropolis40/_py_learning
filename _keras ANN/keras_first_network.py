@@ -2,7 +2,9 @@
 # To add a new markdown cell, type '# %% [markdown]'
 # %%
 import time
+import keras 
 start_time = time.time()
+# %%
 
 # first neural network with keras tutorial
 from numpy import loadtxt
