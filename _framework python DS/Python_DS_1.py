@@ -44,8 +44,35 @@ print(x2)
 print(np.eye(4))
 
 
-# %% each numpy array has some attributes, e.g., 
+# %%
 
+for i in range(4,10) :
+    print(i)
+
+# %%
+x1 = np.array([1,2,3,5,5,6,7, 8])
+print(x1)
+
+
+k =[]
+ 
+for i in range(1, len(x1)+1) :
+    print ("i is", i)
+    k.append(np.array([  range(i) ], dtype='int16'))
+
+
+print(k)
+
+
+
+
+temp = np.array( [range(1) for i in x1], dtype= 'int16' )
+
+print(temp)
+
+
+# %% each numpy array has some attributes, e.g., 
+print(x2)
 print(x2.size)
 print(x2.ndim)
 print(x2.shape)
